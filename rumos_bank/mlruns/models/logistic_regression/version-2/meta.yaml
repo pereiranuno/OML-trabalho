@@ -1,0 +1,15 @@
+aliases: []
+creation_timestamp: 1743978060878
+current_stage: None
+description: null
+last_updated_timestamp: 1743978060878
+name: logistic_regression
+run_id: eb587f08d29e4bd2b18217486719dbcc
+run_link: null
+source: file:c:/Users/PereiraRodrigues/Documents/Data Science Pos Graduate/Oper ML/OML-trabalho/rumos_bank/notebooks/mlflow/../../mlruns/885472256422112193/eb587f08d29e4bd2b18217486719dbcc/artifacts/logistic_regression
+status: READY
+status_message: null
+storage_location: file:c:/Users/PereiraRodrigues/Documents/Data Science Pos Graduate/Oper
+  ML/OML-trabalho/rumos_bank/notebooks/mlflow/../../mlruns/885472256422112193/eb587f08d29e4bd2b18217486719dbcc/artifacts/logistic_regression
+user_id: null
+version: 2

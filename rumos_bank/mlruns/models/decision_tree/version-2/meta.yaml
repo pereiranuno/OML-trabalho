@@ -1,0 +1,15 @@
+aliases: []
+creation_timestamp: 1743978479688
+current_stage: None
+description: null
+last_updated_timestamp: 1743978479688
+name: decision_tree
+run_id: 7b22d8962e7d4caf9e330f581814f82e
+run_link: null
+source: file:c:/Users/PereiraRodrigues/Documents/Data Science Pos Graduate/Oper ML/OML-trabalho/rumos_bank/notebooks/mlflow/../../mlruns/885472256422112193/7b22d8962e7d4caf9e330f581814f82e/artifacts/decision_tree
+status: READY
+status_message: null
+storage_location: file:c:/Users/PereiraRodrigues/Documents/Data Science Pos Graduate/Oper
+  ML/OML-trabalho/rumos_bank/notebooks/mlflow/../../mlruns/885472256422112193/7b22d8962e7d4caf9e330f581814f82e/artifacts/decision_tree
+user_id: null
+version: 2

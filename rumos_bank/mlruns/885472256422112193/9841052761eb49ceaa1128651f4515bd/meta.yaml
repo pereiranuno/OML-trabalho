@@ -1,0 +1,16 @@
+artifact_uri: file:c:/Users/PereiraRodrigues/Documents/Data Science Pos Graduate/Oper
+  ML/OML-trabalho/rumos_bank/notebooks/mlflow/../../mlruns/885472256422112193/9841052761eb49ceaa1128651f4515bd/artifacts
+end_time: 1743974795054
+entry_point_name: ''
+experiment_id: '885472256422112193'
+lifecycle_stage: active
+run_id: 9841052761eb49ceaa1128651f4515bd
+run_name: Ml Model Run - 1 - pipeline
+run_uuid: 9841052761eb49ceaa1128651f4515bd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743974794889
+status: 3
+tags: []
+user_id: PereiraRodrigues
