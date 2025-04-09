@@ -23,6 +23,13 @@ Por causa desta prévia má experiência, o banco desta vez quer ter garantias q
 
 ## Usage
 
-![alt text](utils/image.png)
+![alt text](utils\pics\experiments.png)
+
+![alt text](utils\pics\compare1.png)
+
+![alt text](utils\pics\compare2.png)
+
+![alt text](utils\pics\compare3.png)
+
 
 ### Dependencies
