@@ -21,9 +21,6 @@ Por causa desta prévia má experiência, o banco desta vez quer ter garantias q
 ## Installation
 
 
-
-
-
 ## Usage
 
 ![alt text](utils/image.png)
