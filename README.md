@@ -23,6 +23,9 @@ Por causa desta prévia má experiência, o banco desta vez quer ter garantias q
 
 ## Usage
 
+Instanciar container mlflow
+`docker run -p 5000:5000 -v ./mlruns:/mlruns ghcr.io/mlflow/mlflow mlflow ui --port 5000 --host 0.0.0.0 --backend-store-uri ./mlruns --artifacts-destination ./mlruns`
+
 ![alt text](utils/pics/experiments.png)
 
 ![alt text](utils/pics/compare1.png)
