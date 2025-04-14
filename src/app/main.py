@@ -44,29 +44,29 @@ class Request(BaseModel):
     """
 
 
-    LIMIT_BAL: float
-    SEX: int
-    EDUCATION: int
-    MARRIAGE: int
-    AGE: int
-    PAY_0: int
-    PAY_2: int
-    PAY_3: int
-    PAY_4: int
-    PAY_5: int
-    PAY_6: int
-    BILL_AMT1: float
-    BILL_AMT2: float
-    BILL_AMT3: float
-    BILL_AMT4: float
-    BILL_AMT5: float
-    BILL_AMT6: float
-    PAY_AMT1: float
-    PAY_AMT2: float
-    PAY_AMT3: float
-    PAY_AMT4: float
-    PAY_AMT5: float
-    PAY_AMT6: float
+    LIMIT_BAL: float = 2000.0
+    SEX: int = 2
+    EDUCATION: int = 1
+    MARRIAGE: int = 2
+    AGE: int = 26
+    PAY_0: int = 1
+    PAY_2: int = 2
+    PAY_3: int = 2
+    PAY_4: int = 2
+    PAY_5: int = 2
+    PAY_6: int = 2
+    BILL_AMT1: float = 1001.0
+    BILL_AMT2: float = 1200.0
+    BILL_AMT3: float = 1300.0
+    BILL_AMT4: float = 1249.0
+    BILL_AMT5: float = 1000.0
+    BILL_AMT6: float = 1000.0
+    PAY_AMT1: float = 1000.0
+    PAY_AMT2: float = 1000.0
+    PAY_AMT3: float = 1000.0
+    PAY_AMT4: float = 1000.0
+    PAY_AMT5: float = 1000.0
+    PAY_AMT6: float = 1000.0
 
 # Criar aplicação FastAPI
 app = fastapi.FastAPI()
@@ -106,13 +106,14 @@ async def predict(input: Request):
 
     # Build a DataFrame from the request data
     input_df = pd.DataFrame.from_dict({k: [v] for k, v in input.model_dump().items()})
+    print(input_df.sample(1))
 
     # Predict using the model and retrieve the first item in the prediction list
     prediction = app.model.predict(input_df)
 
     # Return the prediction result as a JSON response
+   
     return {"prediction": prediction.tolist()[0]}
 
 # Executar aplicação
-
 uvicorn.run(app=app, port=config["service_port"], host="0.0.0.0")

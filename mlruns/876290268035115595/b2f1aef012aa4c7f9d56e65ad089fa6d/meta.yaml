@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/876290268035115595/b2f1aef012aa4c7f9d56e65ad089fa6d/artifacts
+deleted_time: 1744587230439
+end_time: 1744587068762
+entry_point_name: ''
+experiment_id: '876290268035115595'
+lifecycle_stage: deleted
+run_id: b2f1aef012aa4c7f9d56e65ad089fa6d
+run_name: Ml Model Run mlp- pipeline
+run_uuid: b2f1aef012aa4c7f9d56e65ad089fa6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744587049727
+status: 3
+tags: []
+user_id: PereiraRodrigues
