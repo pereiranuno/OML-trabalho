@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1744589713953
+current_stage: None
+description: ''
+last_updated_timestamp: 1744589713953
+name: svc
+run_id: cda13b9e6b9e4b919a22eed2c231f09a
+run_link: ''
+source: mlflow-artifacts:/876290268035115595/cda13b9e6b9e4b919a22eed2c231f09a/artifacts/svc
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/876290268035115595/cda13b9e6b9e4b919a22eed2c231f09a/artifacts/svc
+user_id: null
+version: 4
