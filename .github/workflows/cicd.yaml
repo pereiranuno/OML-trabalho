@@ -43,3 +43,7 @@ jobs:
 
       - name: Enviar imagem serviço para o repositório do GitHub
         run: docker push ghcr.io/pereiranuno/bank_lending_prediction_service:latest
+
+
+
+        
