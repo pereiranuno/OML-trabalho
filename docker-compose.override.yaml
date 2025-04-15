@@ -10,7 +10,12 @@ services:
       - 5000:5000
 
   bank-lending-prediction-service:
-    image: ghcr.io/pereiranuno/bank_lending_prediction_service:latest
+    build:
+      context: .
+      dockerfile: Dockerfile.Service
+      tags:
+        - bank-lending-prediction-service:latest
+    image: bank-lending-prediction-service
     container_name: bank-lending-prediction-service
     ports:
       - 5002:5002
