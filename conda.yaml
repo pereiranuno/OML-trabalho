@@ -1,4 +1,4 @@
-name: rumos_bank_lending
+name: rumos_bank_lending_
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main

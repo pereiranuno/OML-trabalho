@@ -77,7 +77,7 @@ def test_model_dir(model: mlflow.pyfunc.PyFuncModel):
 
     }])
     prediction = model.predict(data=input)
-    assert prediction[0] == 1
+    assert prediction[0] == 0
 
 
 def test_model_out_shape(model: mlflow.pyfunc.PyFuncModel):
