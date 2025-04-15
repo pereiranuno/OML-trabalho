@@ -5,7 +5,7 @@ import requests
 with open('./config/app.json') as f:
     config = json.load(f)
 
-def test_has_diabetes_prediction():
+def test_has_bank_lending_prediction():
     """
     Test for the /predict_bank_lending endpoint with valid input data.
     It should return a prediction in the response.
