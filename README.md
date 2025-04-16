@@ -25,6 +25,7 @@ A prioridade do banco é garantir que a transição dos resultados exploratório
 - Pytest
 
 ## Estrutura Projecto
+```plaintext
 OML-trabalho/
 ├── .github/
 │   └── workflows/
