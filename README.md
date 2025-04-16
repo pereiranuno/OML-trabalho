@@ -46,13 +46,15 @@ OML-trabalho/
 ├── docker-compose.yml
 ├── Dockerfile.Service
 └── README.md
-
+```
 
 ### Definição Esrutura
 
 - `src/` - Código da API FastAPI
 - `config/app.json` - Configuração do serviço e modelo
 - `notebooks/rumos_bank_lending_prediction.ipynb` - Notebook exploratório
+- `notebooks/mlflow/mlflow_model_reg.ipynb` - Notebook que regista os modelos e toda e artefactos e experiências no model registry
+- `notebooks/mlflow/mlflow_model_read.ipynb` - Notebook que testa a leitura do modelo champion e executa uma predição para um conjunto de inputs aleatórios.
 - `conda.yaml` - Ambiente conda com dependências
 - `Dockerfile.Service` - Dockerfile do serviço
 - `docker-compose.yml` - Orquestração de serviços (MLflow + Modelo como Serviço API)
