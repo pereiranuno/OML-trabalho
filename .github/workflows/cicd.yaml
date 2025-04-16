@@ -27,7 +27,7 @@ jobs:
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
-          password: ${{ secrets.GITHUB_TOKEN}}
+          password: ${{ secrets.BANK_LENDING_PREDICTION_PAT}}
 
       - name: Iniciar serviços
         run: docker compose up -d
@@ -41,7 +41,8 @@ jobs:
       - name: Executar testes
         run: conda run --no-capture-output -n rumos_bank_lending_ pytest
 
-
+      - name: Enviar imagem serviço para o repositório do GitHub
+        run: docker push ghcr.io/pereiranuno/bank_lending_prediction_service:latest
 
 
 
