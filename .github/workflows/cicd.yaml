@@ -42,8 +42,6 @@ jobs:
         run: conda run --no-capture-output -n rumos_bank_lending_ pytest
 
 
-      - name: Enviar imagem serviço para o repositório do GitHub
-        run: docker push ghcr.io/pereiranuno/bank_lending_prediction_service:latest
 
 
 
