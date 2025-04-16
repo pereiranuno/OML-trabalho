@@ -15,6 +15,7 @@ services:
       dockerfile: Dockerfile.Service
       tags:
         - bank-lending-prediction-service:latest
+        - ghcr.io/pereiranuno/bank_lending_prediction_service:latest
     image: bank-lending-prediction-service
     container_name: bank-lending-prediction-service
     ports:
