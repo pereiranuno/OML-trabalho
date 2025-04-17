@@ -117,11 +117,36 @@ mlflow.set_tracking_uri("http://mlflow-tracking-server:5000")
 mlflow.pyfunc.load_model("models:/random_forest@champion")
 ```
 
+A imagem apresentada mostra a interface do MLflow na aba de das runs feitas para cada modelo. Nesta secção  é possivel  permite visualizar e comparar execuções de treino de diferentes modelos de machine learning realizadas no âmbito deste projeto.
+
+Cada linha representa uma execução (run), ou seja, uma instância em que um modelo foi treinado com um determinado conjunto de parâmetros e dados. A execução é registada com os seguintes detalhes.
+
 ![alt text](utils/pics/experiments.png)
+
+
+A imagem abaixo mostra o separador “Models” da interface do MLflow, onde se encontram registados os modelos resultantes dos treinos realizados no projeto Rumos Bank Lending.
+
+Nesta secção, é possível ver todos os modelos que foram registados no Model Registry, juntamente com a respetiva versão mais recente e informações adicionais.
+
+![alt text](utils/pics/models.png)
+
+A imagem apresenta uma visualização comparativa de 6 execuções (runs) de modelos treinados no âmbito do projeto, utilizando a funcionalidade de “Parallel Coordinates Plot” do MLflow. Esta ferramenta permite comparar diferentes execuções com base em métricas selecionadas, facilitando a análise de desempenho.
+
+Cada linha no gráfico representa uma execução, e a sua trajectória liga os valores das duas métricas, training_time_sec: tempo total de treino de cada modelo (em segundos) e best_cv_score: melhor pontuação obtida em validação cruzada em accuracy. 
+
+O modelo MLP (Multilayer Perceptron) destaca-se como o mais demorado a treinar, com cerca de 19,9 segundos, mas também obteve uma das melhores pontuações em best_cv_score (~0.75). O modelo SVC (Support Vector Classifier) teve o menor tempo de treino (~7.7s), mas apresenta uma performance mais fraca, com best_cv_score próximo de 0.66.
+Modelos como random_forest, decision_tree, logistic_regression e knn demonstram um bom equilíbrio entre tempo de treino e qualidade de classificação.
+
+
+![alt text](utils/pics/compare0.png)
+
+O mlflow permite também criar gráficos personalizados para as diferentes métricas. Abaixo são apresentados gráficos para as métricas performance acuraccy, e tempo de execução de cada uma das runs dos modelos. .
 
 ![alt text](utils/pics/compare1.png)
 
 ![alt text](utils/pics/compare2.png)
+
+A imagem abaixo mostra uma tabela comparativa gerada pelo MLflow, onde são analisadas diferentes execuções de modelos com base nos parâmetros utilizados e nas métricas de desempenho obtidas. Esta visualização é extremamente útil para avaliar o impacto dos hiperparâmetros nos resultados dos modelos. 
 
 ![alt text](utils/pics/compare3.png)
 
