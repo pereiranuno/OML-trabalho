@@ -1,19 +1,28 @@
 # Documentação do Projeto - Rumos Bank Lending Prediction
 
-> [!TIP]
-> Some tips.
-
-> [!IMPORTANT]
-> Important notes:
 
 ## Rumos Bank Going Live
 Este projeto responde ao desafio proposto pelo Rumos Bank, que visa desenvolver uma solução de machine learning capaz de prever clientes que poderão falhar no cumprimento dos prazos de pagamento de crédito.
 
 A prioridade do banco é garantir que a transição dos resultados exploratórios para produção é feita de forma eficiente e automatizada, evitando demoras como em experiências anteriores.
 
----
 
-## Tecnologias Utilizadas
+> [!IMPORTANT]
+> Esta secção contém observações relevantes para garantir a correta execução do projeto.
+> A imagem Docker do serviço encontra-se publicada de forma pública no GitHub Container Registry (GHCR).
+> 🔗 Imagem: `ghcr.io/pereiranuno/bank_lending_prediction_service:latest`
+> O serviço não inclui o modelo diretamente na imagem, carregado dinamicamente do **MLflow Tracking Server**, a partir do Model Registry. A versão utilizada é a `champion` do modelo `random_forest`
+> Uma instância do MLflow é levantado via `docker-compose` e pode ser acedido localmente em http://localhost:5000
+> O ficheiro `conda.yaml` define todas as dependências necessárias para reproduzir o ambiente localmente.
+> Pode ser usado com:
+    ```bash
+    conda env create -f conda.yaml
+    conda activate rumos_bank_lending_
+    ```
+
+
+
+## Dependencias
 - Python 3.10
 - FastAPI
 - Scikit-learn
