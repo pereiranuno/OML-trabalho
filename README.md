@@ -136,8 +136,8 @@ Cada linha no gráfico representa uma execução, e a sua trajectória liga os v
 
 O modelo MLP (Multilayer Perceptron) obteve o melhor desempenho global, com um best_cv_score de 0.821, e um tempo de treino relativamente elevado: 917 segundos (~15.4 minutos).
 O Random Forest surge logo a seguir em termos de performance, com best_cv_score de 0.816, mas com uma grande vantagem no tempo de treino, demorando apenas 38.65 segundos.
-Já o modelo SVC (Support Vector Classifier), embora tenha alcançado um score competitivo (0.785), teve um tempo de treino extremamente elevado, de 3338 segundos (~55.8 minutos), o que o torna menos eficiente computacionalmente.
-Entre os modelos mais leves, o KNN apresenta uma boa performance (0.808) com apenas 11.42 segundos de treino, o Decision Tree tem best_cv_score de 0.759 e treina em apenas 3.59 segundos e o Logistic Regression foi o mais rápido a treinar (2.45 segundos), mas teve o best_cv_score mais baixo: 0.704.~
+Já o modelo SVC (Support Vector Classifier), embora tenha alcançado um score competitivo (0.785), teve um tempo de treino extremamente elevado, de 3338 segundos (55.8 minutos), o que o torna menos eficiente computacionalmente.
+Entre os modelos mais leves, o KNN apresenta uma boa performance (0.808) com apenas 11.42 segundos de treino, o Decision Tree tem best_cv_score de 0.759 e treina em apenas 3.59 segundos e o Logistic Regression foi o mais rápido a treinar (2.45 segundos), mas teve o best_cv_score mais baixo: 0.704.
 
 O Random Forest é uma excelente escolha em termos de trade-off entre desempenho e eficiência, dai ter sido esolhido como o modelo Champion
 
@@ -217,7 +217,9 @@ O acesso à imagem é garantido através do `GITHUB_TOKEN`, pois o repositório 
 
 ## Autor
 Nuno Pereira
+
 github.com/pereiranuno
+
 pereiranuno@gmail.com
 
 
