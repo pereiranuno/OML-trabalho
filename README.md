@@ -215,7 +215,7 @@ O acesso à imagem é garantido através do `GITHUB_TOKEN`, pois o repositório 
 ## Autor
 Nuno Pereira
 github.com/pereiranuno
-pereiranuno@gmail.coms
+pereiranuno@gmail.com
 
 
 
