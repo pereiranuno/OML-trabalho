@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/933639594824789107/e5c5d91b8562462eaf75d33506cbc317/artifacts
+end_time: 1744995994701
+entry_point_name: ''
+experiment_id: '933639594824789107'
+lifecycle_stage: active
+run_id: e5c5d91b8562462eaf75d33506cbc317
+run_name: Ml Model Run random_forest- pipeline
+run_uuid: e5c5d91b8562462eaf75d33506cbc317
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744995948077
+status: 3
+tags: []
+user_id: PereiraRodrigues

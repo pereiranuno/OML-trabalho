@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1744996918631
+current_stage: None
+description: ''
+last_updated_timestamp: 1744996918631
+name: mlp
+run_id: 929be8d9073549e6b2e349f975ae7cfb
+run_link: ''
+source: mlflow-artifacts:/933639594824789107/929be8d9073549e6b2e349f975ae7cfb/artifacts/mlp
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/933639594824789107/929be8d9073549e6b2e349f975ae7cfb/artifacts/mlp
+user_id: null
+version: 1

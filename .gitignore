@@ -2,4 +2,3 @@ __pycache__
 
 # Ignorar ficheiro de override do Docker Compose
 docker-compose.override.yaml
-mlruns/

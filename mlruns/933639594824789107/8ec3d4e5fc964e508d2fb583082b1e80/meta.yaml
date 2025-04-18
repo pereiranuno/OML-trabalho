@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/933639594824789107/8ec3d4e5fc964e508d2fb583082b1e80/artifacts
+end_time: 1744995947775
+entry_point_name: ''
+experiment_id: '933639594824789107'
+lifecycle_stage: active
+run_id: 8ec3d4e5fc964e508d2fb583082b1e80
+run_name: Ml Model Run decision_tree- pipeline
+run_uuid: 8ec3d4e5fc964e508d2fb583082b1e80
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744995937909
+status: 3
+tags: []
+user_id: PereiraRodrigues
