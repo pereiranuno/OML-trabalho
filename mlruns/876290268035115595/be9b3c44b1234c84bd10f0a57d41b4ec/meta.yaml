@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/876290268035115595/be9b3c44b1234c84bd10f0a57d41b4ec/artifacts
+end_time: 1744587183824
+entry_point_name: ''
+experiment_id: '876290268035115595'
+lifecycle_stage: active
+run_id: be9b3c44b1234c84bd10f0a57d41b4ec
+run_name: Ml Model Run logistic_regression- pipeline
+run_uuid: be9b3c44b1234c84bd10f0a57d41b4ec
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744587176075
+status: 3
+tags: []
+user_id: PereiraRodrigues

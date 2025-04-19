@@ -1,0 +1,14 @@
+aliases: []
+creation_timestamp: 1744589668823
+current_stage: None
+description: ''
+last_updated_timestamp: 1744589668823
+name: decision_tree
+run_id: 09eb2206f629411eba9c441776c7f491
+run_link: ''
+source: mlflow-artifacts:/876290268035115595/09eb2206f629411eba9c441776c7f491/artifacts/decision_tree
+status: READY
+status_message: null
+storage_location: mlflow-artifacts:/876290268035115595/09eb2206f629411eba9c441776c7f491/artifacts/decision_tree
+user_id: null
+version: 4
