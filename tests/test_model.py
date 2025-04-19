@@ -51,29 +51,29 @@ def test_model_out(model: mlflow.pyfunc.PyFuncModel):
 def test_model_dir(model: mlflow.pyfunc.PyFuncModel):
     input = pd.DataFrame.from_records([{
 
-    'LIMIT_BAL': 2000,
+    'LIMIT_BAL': 30000,
     'SEX': 2,
-    'EDUCATION': 1,
-    'MARRIAGE': 2,
-    'AGE': 26,
-    'PAY_0': 1,
-    'PAY_2': 2,
+    'EDUCATION': 2,
+    'MARRIAGE': 1,
+    'AGE': 31,
+    'PAY_0': 3,
+    'PAY_2': 3,
     'PAY_3': 2,
     'PAY_4': 2,
     'PAY_5': 2,
     'PAY_6': 2,
-    'BILL_AMT1': 1001,
-    'BILL_AMT2': 1200,
-    'BILL_AMT3': 1300,
-    'BILL_AMT4': 1249,
-    'BILL_AMT5': 1000,
-    'BILL_AMT6': 1000,
-    'PAY_AMT1': 1000,
-    'PAY_AMT2': 1000,
-    'PAY_AMT3': 1000,
-    'PAY_AMT4': 1000,
-    'PAY_AMT5': 1000,
-    'PAY_AMT6': 1000
+    'BILL_AMT1': 26008,
+    'BILL_AMT2': 25294,
+    'BILL_AMT3': 26928,
+    'BILL_AMT4': 0,
+    'BILL_AMT5': 1600,
+    'BILL_AMT6': 1200,
+    'PAY_AMT1': 0,
+    'PAY_AMT2': 2200,
+    'PAY_AMT3': 0,
+    'PAY_AMT4': 0,
+    'PAY_AMT5': 0,
+    'PAY_AMT6': 0
 
     }])
     prediction = model.predict(data=input)
@@ -106,6 +106,9 @@ def test_model_out_shape(model: mlflow.pyfunc.PyFuncModel):
     'PAY_AMT4': 1000,
     'PAY_AMT5': 1000,
     'PAY_AMT6': 1000
+
+
+    
     
     }])
     prediction = model.predict(data=input)
