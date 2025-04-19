@@ -4,7 +4,7 @@ on:
   push:
     branches: [ testes_full_dataset ]
   pull_request:
-    branches: [ cicd ]
+    branches: [ master ]
 
 permissions:
   contents: read
