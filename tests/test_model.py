@@ -51,33 +51,33 @@ def test_model_out(model: mlflow.pyfunc.PyFuncModel):
 def test_model_dir(model: mlflow.pyfunc.PyFuncModel):
     input = pd.DataFrame.from_records([{
 
-    'LIMIT_BAL': 30000,
-    'SEX': 2,
-    'EDUCATION': 2,
-    'MARRIAGE': 1,
-    'AGE': 31,
-    'PAY_0': 3,
-    'PAY_2': 3,
-    'PAY_3': 2,
-    'PAY_4': 2,
-    'PAY_5': 2,
-    'PAY_6': 2,
-    'BILL_AMT1': 26008,
-    'BILL_AMT2': 25294,
-    'BILL_AMT3': 26928,
-    'BILL_AMT4': 0,
-    'BILL_AMT5': 1600,
-    'BILL_AMT6': 1200,
-    'PAY_AMT1': 0,
-    'PAY_AMT2': 2200,
-    'PAY_AMT3': 0,
-    'PAY_AMT4': 0,
-    'PAY_AMT5': 0,
-    'PAY_AMT6': 0
+        'LIMIT_BAL': 20000.0,
+        'SEX': 1,
+        'EDUCATION': 1,
+        'MARRIAGE': 2,
+        'AGE': 23,
+        'PAY_0': 1,
+        'PAY_2': 2,
+        'PAY_3': 3,
+        'PAY_4': 2,
+        'PAY_5': 0,
+        'PAY_6': 0,
+        'BILL_AMT1': 19160.0,
+        'BILL_AMT2': 19661.0,
+        'BILL_AMT3': 19816.0,
+        'BILL_AMT4': 19160.0,
+        'BILL_AMT5': 19661.0,
+        'BILL_AMT6': 19816.0,
+        'PAY_AMT1': 2300.0,
+        'PAY_AMT2': 0.0,
+        'PAY_AMT3': 0.0,
+        'PAY_AMT4': 788.0,
+        'PAY_AMT5': 558.0,
+        'PAY_AMT6': 198.0
 
     }])
     prediction = model.predict(data=input)
-    assert prediction[0] == 0
+    assert prediction[0] == 1
 
 
 def test_model_out_shape(model: mlflow.pyfunc.PyFuncModel):
