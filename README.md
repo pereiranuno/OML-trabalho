@@ -168,35 +168,35 @@ POST http://localhost:5002/predict_bank_lending
 Content-Type: application/json
 
 {
-  "LIMIT_BAL": 2000,
-  "SEX": 2,
+  "LIMIT_BAL": 20000.0,
+  "SEX": 1,
   "EDUCATION": 1,
   "MARRIAGE": 2,
-  "AGE": 26,
+  "AGE": 23,
   "PAY_0": 1,
   "PAY_2": 2,
-  "PAY_3": 2,
+  "PAY_3": 3,
   "PAY_4": 2,
-  "PAY_5": 2,
-  "PAY_6": 2,
-  "BILL_AMT1": 1001,
-  "BILL_AMT2": 1200,
-  "BILL_AMT3": 1300,
-  "BILL_AMT4": 1249,
-  "BILL_AMT5": 1000,
-  "BILL_AMT6": 1000,
-  "PAY_AMT1": 1000,
-  "PAY_AMT2": 1000,
-  "PAY_AMT3": 1000,
-  "PAY_AMT4": 1000,
-  "PAY_AMT5": 1000,
-  "PAY_AMT6": 1000
+  "PAY_5": 0,
+  "PAY_6": 0,
+  "BILL_AMT1": 19160.0,
+  "BILL_AMT2": 19661.0,
+  "BILL_AMT3": 19816.0,
+  "BILL_AMT4": 19160.0,
+  "BILL_AMT5": 19661.0,
+  "BILL_AMT6": 19816.0,
+  "PAY_AMT1": 2300.0,
+  "PAY_AMT2": 0.0,
+  "PAY_AMT3": 0.0,
+  "PAY_AMT4": 788.0,
+  "PAY_AMT5": 558.0,
+  "PAY_AMT6": 198.0
 }
 ```
 **Response:**
 ```http
 {
-  "prediction": 0
+  "prediction": 1
 }
 ```
 
